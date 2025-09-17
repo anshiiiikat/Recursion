@@ -89,22 +89,43 @@ Recursion is a programming technique where a function calls itself directly or i
 5.Initialize a pointer end to point to the last character of str (use strlen(str) - 1 to find it).
 
 6.Repeat while start is less than end:
+Store the character at start in a temporary variable x.
 
-7.Store the character at start in a temporary variable x.
+Assign the character at end to the location pointed by start.
 
-8.Assign the character at end to the location pointed by start.
+Assign the temporary variable x to the location pointed by end.
 
-9.Assign the temporary variable x to the location pointed by end.
+Increment start pointer to the next character.
 
-10.Increment start pointer to the next character.
+Decrement end pointer to the previous character.
 
-11.Decrement end pointer to the previous character.
+7.Once the pointers meet or cross, the string is reversed.
 
-12.Once the pointers meet or cross, the string is reversed.
+8.Print the reversed string.
 
-13.Print the reversed string.
+9.End
+## Sum of First n Natural Numbers Using Recursion
 
-14.End
+1.Start
+
+2.Input a number n from the user.
+
+3.Define a recursive function sum(n) as follows:
+
+If n is 0, return 0 (base case).
+
+Otherwise, return n + sum(n-1) (recursive case).
+
+4.Call the function sum(n) with the input number n.
+
+5.Display the result as the sum of first n natural numbers.
+
+6.End
+
+# Conclusion
+
+
+This experiment demonstrated how recursion simplifies problem-solving by breaking tasks into smaller subproblems. It highlighted the importance of a base case to ensure proper termination of recursive calls.
 
 
 
