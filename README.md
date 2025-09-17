@@ -58,5 +58,22 @@ Recursion is a programming technique where a function calls itself directly or i
 ---
 
 ## Algorithm
+### Calculate Factorial Using Recursion
+
+1.Start
+
+2.Input a number n from the user.
+
+3.Define a recursive function fact(n):
+
+4.If n is less than or equal to 1, return 1 (base case).
+
+5.Otherwise, return n multiplied by fact(n-1) (recursive case).
+
+6.Call the function fact(n) with the input number.
+
+7.Display the result as the factorial of the number.
+
+8.End
 
 
