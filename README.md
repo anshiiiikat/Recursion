@@ -16,7 +16,7 @@ To understand and implement recursion concepts in C++ programming.
 ---
 
 ## 📚 Theory
-
+README
 ### What is Recursion?
 
 Recursion is a programming technique where a function calls itself directly or indirectly to solve smaller instances of the same problem until it reaches a base case.
@@ -75,5 +75,37 @@ Recursion is a programming technique where a function calls itself directly or i
 7.Display the result as the factorial of the number.
 
 8.End
+
+ ## Reverse a String 
+
+1.Start
+
+2.Declare a character array str to store the input string.
+
+3.Input the string str from the user.
+
+4.Initialize a pointer start to point to the first character of str.
+
+5.Initialize a pointer end to point to the last character of str (use strlen(str) - 1 to find it).
+
+6.Repeat while start is less than end:
+
+7.Store the character at start in a temporary variable x.
+
+8.Assign the character at end to the location pointed by start.
+
+9.Assign the temporary variable x to the location pointed by end.
+
+10.Increment start pointer to the next character.
+
+11.Decrement end pointer to the previous character.
+
+12.Once the pointers meet or cross, the string is reversed.
+
+13.Print the reversed string.
+
+14.End
+
+
 
 
